@@ -106,6 +106,6 @@ func main() {
 		return
 	}
 
-	fmt.Println("Bot is now running. Press CTRL+C to exit.")
+	fmt.Println("Bot is now running.")
 	<-make(chan struct{})
 }
